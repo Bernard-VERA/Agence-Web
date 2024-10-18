@@ -29,6 +29,10 @@ h1 {
     justify-content: center;  
 }
 
+h3 {
+  margin-top: 60px;
+}
+
 /* Animation du titre de l'accueil */
 .slide-down {
   position: relative;
@@ -73,6 +77,22 @@ h1 {
   }
   to {
       right: 0;
+      opacity: 1;
+  }
+}
+
+/* Animation des icones médias sociaux */
+.slide-up {
+  position: relative;
+  animation: slide-up 1.5s ease-in-out forwards;
+}
+@keyframes slide-up {
+  from {
+      top: 80px;
+      opacity: 0;
+  }
+  to {
+      top: 0;
       opacity: 1;
   }
 }
@@ -129,6 +149,7 @@ section {
     width: 100%;
     border-radius: 10px;
     transform: translate(-40px, 50px);
+    font-size: 1.2em;
     text-align: justify;
 }
 
@@ -192,6 +213,10 @@ section {
     margin-left: 50px;
     margin-right: 50px;
     text-align: justify;
+}
+
+.info p {
+  font-size: 1.2em;
 }
 
 /* Animation des sections */
@@ -261,7 +286,7 @@ section {
   }
 
   .img-wrapper {
-    transform: rotate(90deg);
+    transform: rotate(0deg);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -296,9 +321,7 @@ section {
   .fastest {
     transform: rotate(90deg) translateZ(.22px) scale(0.7) translateX(-10vh) translateY(-15vh) ;
   }
-  .vertical {
-     transform: rotate(90deg) translateZ(-.15px) scale(1.15) translateX(0%) translateY(0%) ;
-  }
+  
  
   .img-wrapper a {
     overflow: hidden;
