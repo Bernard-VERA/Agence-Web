@@ -315,7 +315,7 @@ section {
     max-height: 50vh;
     transition: .5s;
     vertical-align: top;
-    filter: saturate(40%) grayscale(50%) hue-rotate(5deg);
+    filter: saturate(30%) grayscale(50%) hue-rotate(5deg);
   }
 
   .img-wrapper a:hover img {
