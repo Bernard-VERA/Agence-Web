@@ -354,6 +354,40 @@ section {
     margin-top: 100px;
 }
 
+/* responsive design */
+@media only screen and (max-width: 966px){
+  /*style petites-moyennes tablettes */
+  h1 {
+    font-size: 3em;
+  }
+
+  .main-title {
+    font-size: 2.5em;
+  }
+  .content {
+    flex-wrap: wrap;
+  }
+  .intro-image{
+    width: 70%;
+    margin-left: 0px;
+  }
+
+  .content .image img {
+    position: relative;
+  }
+
+  .intro-text-box {
+    width: 75%;
+    transform: translate(0px, -30px)
+  }
+
+  }
+
+@media only screen and (max-width: 799px){
+  /*style smartphones et petites tablettes en portrait*/
+
+  }
+
 
 
 
