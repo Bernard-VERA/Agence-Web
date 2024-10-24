@@ -153,6 +153,11 @@ section {
     text-align: justify;
 }
 
+.intro-text-box h3 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
 .content .image {
     position: relative;
     width: 100%;
