@@ -264,6 +264,10 @@ section {
     text-align: center;
 }
 
+.mobile {
+  display: none;
+}
+
 
 /* Camouflage de la scrollbar */
 ::-webkit-scrollbar {
@@ -434,11 +438,53 @@ section {
     align-items: center;
     margin-left: 15px;
     margin-right: 15px;
+    font-size: 0.8em;
+  }
+
+  .external {
+    height:40vh;
+  }
+
+  .horizontal-scroll-wrapper {
+    transform: none;
+    flex-direction: row;
+    gap: 10px;
+    height: auto;
+    width: 100%;
+    padding-bottom: 4rem;
+    overflow-x: auto;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .img-wrapper {
+    transform: none;
+  }
+
+  .img-wrapper img {
+    filter: none;
+    max-width: 35vh;
+    max-height: 40vh;
+    transition: .5s;
+  }
+
+  .slower, .slower-down, .faster, .faster1 {
+    transform: none;
   }
 }
 
 @media only screen and (max-width: 799px){
   /*style smartphones et petites tablettes en portrait*/
+ 
+  .header {
+    position: static;
+  }
 
   h1 {
     font-size: 2em;
@@ -469,6 +515,7 @@ section {
 }
 
 @media only screen and (max-width: 399px) {
+  /* Style petit smartphone */
 
   .section-title {
     font-size: 1.2em;
