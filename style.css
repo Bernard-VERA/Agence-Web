@@ -231,6 +231,10 @@ section {
     animation-range: cover 0% contain 20%;
 }
 
+.intro-text-box p {
+  animation: none;
+}
+
 .image {
     animation: reveal linear;
     animation-timeline: view();
@@ -472,5 +476,14 @@ section {
 
   .info-title {
     font-size: 1.1em;
+  }
+
+  .intro-text-box p {
+    font-size: 0.7em;
+  }
+  
+  .info p{
+    font-size: 0.8em;
+    text-wrap: pretty;
   }
 }
