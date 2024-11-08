@@ -252,7 +252,7 @@ section {
     }
 }
 
-/* Réalisations */
+/* Réalisations 
 .realisations h4 {
    margin-top: 90px;
     color: #fff;
@@ -267,9 +267,10 @@ section {
 .mobile {
   display: none;
 }
+*/
 
 
-/* Camouflage de la scrollbar */
+/* Camouflage de la scrollbar 
 ::-webkit-scrollbar {
     width: 1px;
     height: 1px;
@@ -280,8 +281,10 @@ section {
     height: 80vh;
     margin-top: 50px;
   }
-  
-  /* Animation des cartes des réalisations */
+  */
+
+
+  /* Animation des cartes des réalisations 
   .horizontal-scroll-wrapper {
     display: flex;
     flex-direction: column;
@@ -356,6 +359,50 @@ section {
 
   .img-wrapper a:hover img {
     filter: none;
+  }
+*/
+.realisations h4 {
+  margin-top: 90px;
+   color: #fff;
+   text-align: center;
+}
+.realisations p {
+   font-size: 1.3em;
+   color: #fff;
+   text-align: center;
+}
+
+.slider { 
+  display: flex; 
+  overflow: hidden; 
+  width: 100%; 
+  height: 300px;
+  margin-top: 50px;
+  margin-bottom: 90px;
+  position: relative;
+}
+
+  .slider img { 
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-right: 10px;
+    flex-shrink: 0; 
+    
+  }
+
+  .slider-content {
+    display: flex;
+    width: calc(300px * 18 + 10px * 18);
+    animation: slide 30s infinite linear;
+  }
+  
+  
+  @keyframes slide { 
+    0% 
+    { transform: translateX(0); } 
+    100% 
+    { transform: translateX(-50%); } 
   }
 
   /* Review*/
