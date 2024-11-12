@@ -349,7 +349,10 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
- 
+}
+
+.price h2 {
+  padding: 10px;
 }
 
 .flip-card { 
@@ -395,6 +398,14 @@ section {
   background-color: #34302f; 
   color: white; 
   transform: rotateY(180deg); 
+}
+
+.card-front-text {
+  padding: 10px;
+}
+
+.card-back-text {
+  padding: 10px;
 }
 
   /* Footer */
