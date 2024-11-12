@@ -10,6 +10,7 @@
 body {
     background: #1d1916 ;
 }
+
 /* Header */
 .header {
     display: flex;
@@ -38,6 +39,7 @@ h3 {
   position: relative;
   animation: slide-down 1.5s ease-in-out forwards;
 }
+
 @keyframes slide-down {
   from {
       top: -80px;
@@ -55,6 +57,7 @@ h3 {
   border-radius: 15px;
   animation: slide-in-left 1.5s ease-out forwards;
 }
+
 @keyframes slide-in-left {
   from {
       left: -100%;
@@ -71,6 +74,7 @@ h3 {
   position: relative;
   animation: slide-in-right 1.5s ease-out forwards;
 }
+
 @keyframes slide-in-right {
   from {
       right: -100%;
@@ -87,6 +91,7 @@ h3 {
   position: relative;
   animation: slide-up 1.5s ease-in-out forwards;
 }
+
 @keyframes slide-up {
   from {
       top: 80px;
@@ -252,12 +257,14 @@ section {
         opacity: 1;
     }
 }
+
  /* Réalisations */
 .realisations h4 {
   margin-top: 90px;
    color: #fff;
    text-align: center;
 }
+
 .realisations p {
    font-size: 1.3em;
    color: #fff;
@@ -279,8 +286,7 @@ section {
     height: 300px;
     border-radius: 10px;
     margin-right: 10px;
-    flex-shrink: 0; 
-    
+    flex-shrink: 0;   
   }
 
   .slider-content {
@@ -336,15 +342,15 @@ section {
 
 .review-card h3 {
     margin: 8px 0;
+    color: #1d1916;
 }
 
-.stars {
-    color: gold;
-    font-size: 20px;
+.review-card .stars {
+    color: rgb(232, 154, 10);
+    font-size: 24px;
 }
 
 /* Price */
-
 .price {
   display: flex;
   justify-content: center;
@@ -360,7 +366,6 @@ section {
   width: 50%; 
   height: 200px; 
   perspective: 1000px;
- 
 } 
 
 .flip-card-inner { 
@@ -410,15 +415,15 @@ section {
 
   /* Footer */
 .bottom {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 500px;
-    justify-content: center;
-    align-items: center;
-    background-color: #34302f;
-    margin-top: 100px;
-    color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  background-color: #34302f;
+  margin-top: 100px;
+  color: #fff;
 }
 
 .bottom p, h3 {
@@ -482,6 +487,7 @@ section {
     margin-bottom: 10px;
     font-size: 2em;
   }
+  
   .info {
     max-width: 95%;
     margin-left: 0px;
