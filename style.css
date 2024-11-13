@@ -286,7 +286,8 @@ section {
     height: 300px;
     border-radius: 10px;
     margin-right: 10px;
-    flex-shrink: 0;   
+    flex-shrink: 0; 
+    object-fit:cover; 
   }
 
   .slider-content {
